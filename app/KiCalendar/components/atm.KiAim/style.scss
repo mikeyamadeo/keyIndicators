@@ -1,0 +1,28 @@
+@import '_settings.colors.scss';
+$cell-size:				100px;
+
+.Aim {
+	min-width: $cell-size;
+	height: $cell-size;
+	border: solid 2px transparent;
+}
+
+.Aim:before{
+	content: '';
+  display: block;
+  width: $cell-size;
+  height: $cell-size;
+}
+
+.Aim.binary.planned:before {
+  border: solid 20px $clr-blue;
+}
+
+.Aim.binary.complete:before {
+	background-color: $clr-blue;
+}
+
+.Aim.binary:hover {
+	border: solid 2px $clr-blue;
+	cursor: pointer;
+}

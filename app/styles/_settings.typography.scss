@@ -1,0 +1,27 @@
+/*------------------------------------*\
+    #TYPOGRAPHY_SETTINGS
+\*------------------------------------*/
+
+// Typography
+// ==========================================================================
+
+// Font Weights
+$extra-light:           100;
+$light:                 300;
+$normal:                500;
+$bold:                  700;
+$extra-bold:            900;
+
+// Font Families
+$museo-font-family:     "museo-sans" !default;
+
+// Base Font
+$base-font-family:      $museo-font-family;
+$base-font-weight:      $light;
+
+// Heading Font
+$header-font-family:    $museo-font-family !default;
+$header-font-weight:    $extra-bold;
+
+
+

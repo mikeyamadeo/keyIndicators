@@ -1,0 +1,13 @@
+@import "_settings.colors.scss";
+
+.CalendarHeader {
+	background-color: $clr-red;
+
+	font-size: 2em;
+	color: white;
+	
+	height: 70px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
