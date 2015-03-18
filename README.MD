@@ -1,2 +1,2 @@
 ##Folder Structure
-[Based off Ryan Florence approach](https://gist.github.com/ryanflorence/daafb1e3cb8ad740b346)
+Based off Ryan Florence's [approach](https://gist.github.com/ryanflorence/daafb1e3cb8ad740b346)
